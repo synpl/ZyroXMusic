@@ -26,7 +26,7 @@ from helpers.gets import get_url, get_file_name
 @Client.on_message(command(["stream", f"stream@{BOT_USERNAME}"]) & other_filters)
 async def stream(_, message: Message):
 
-    lel = await message.reply("🔁 **processing** sound...")
+    lel = await message.reply("🔁 **Sedang Memproses**")
     costumer = message.from_user.mention
 
     keyboard = InlineKeyboardMarkup(
@@ -57,15 +57,15 @@ async def stream(_, message: Message):
             if not path.isfile(path.join("downloads", file_name)) else file_name
         )
     elif url:
-        return await lel.edit("❗ **reply to a telegram audio file.**")
+        return await lel.edit("❗ **Reply ke Telegram Audio File**")
     else:
-        return await lel.edit("❗ **reply to a telegram audio file.**")
+        return await lel.edit("❗ **Reply ke Telegram Audio File**")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="https://telegra.ph/file/36343b9d4742efe0b09cd.jpg",
-            caption=f"💡 **Track added to queue »** `{position}`\n\n🏷 **Name:** [{title[:40]}](https://t.me/{GROUP_SUPPORT})\n⏱ **Duration:** `{duration}`\n🎧 **Request by:** {costumer}",
+            caption=f"✧ **Track added to queue »** `{position}`\n\n✧ **Judul:** [{title[:40]}](https://t.me/{GROUP_SUPPORT})\n✧ **Durasi:** `{duration}`\n✧ **Permintaan:** {costumer}",
             reply_markup=keyboard,
         )
         return await lel.delete()
@@ -73,8 +73,8 @@ async def stream(_, message: Message):
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_photo(
             photo="https://telegra.ph/file/224178328de996a82507f.jpg",
-            caption=f"🏷 **Name:** [{title[:40]}](https://t.me/{GROUP_SUPPORT})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n" \
-                   +f"🎧 **Request by:** {costumer}",
+            caption=f"✧ **Judul:** [{title[:40]}](https://t.me/{GROUP_SUPPORT})\n✧ **Durasi:** `{duration}`\n✧ **Status:** `Playing`\n" \
+                   +f"✧ **Permintaan:** {costumer}",
             reply_markup=keyboard,
         )
         return await lel.delete()
