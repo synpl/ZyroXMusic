@@ -53,13 +53,13 @@ async def alive(client: Client, message: Message):
         photo=f"{BOT_IMG}",
         caption=f"""**{alv} Holla I'm [{bn}](https://t.me/{BOT_USERNAME})**
 
-{alv} **I'm Working Properly**
+✧ **I'm Working Properly**
 
-{alv} **Bot : 6.0 LATEST**
+✧ **Bot : 6.0 LATEST**
 
-{alv} **My Master : [Tuhan](https://t.me/{OWNER_NAME})**
+✧ **My Master : [Tuhan](https://t.me/{OWNER_NAME})**
 
-{alv} **Service Uptime : `{uptime}`**
+✧ **Service Uptime : `{uptime}`**
 
 **Thanks For Using Me ❤️**""",
         reply_markup=InlineKeyboardMarkup(
