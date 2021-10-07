@@ -1,7 +1,7 @@
-<h1 align="centre">Kennedy X Music 🎵
+<h1 align="centre">Zyroscope X Music
 
-### Music bot for playing music on telegram voice chat group.
-<p align="center"><a href="https://t.me/kenbotsupport"><img src="https://telegra.ph/file/64cb85ec99e12dc0f8e47.jpg" width="300"></a></p>
+### Buat denger lagu
+<p align="center"><a href="https://t.me/zyroscopebot"><img src="https://telegra.ph/file/42c6ab6a0e0112413b358.jpg" width="300"></a></p>
 
 <h3>Requirements</h3>
 
@@ -63,7 +63,7 @@
 ### Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KennedyProject/KennedyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/synpl/ZyroXMusic)
 
 ### Deploy On VPS 💙
 
@@ -87,4 +87,4 @@ The easy way to host this bot, deploy to Heroku
 - [Veez Music](https://github.com/levina-lab/veezmusic) Veez Music
 
 ### Support & Updates 🛵
-<a href="https://t.me/kenbotsupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/KennedyProject"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/joinsinidongg"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Zyroupdate"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
