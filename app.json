@@ -1,9 +1,9 @@
 {
-    "name": "KennedyX Music",
-    "logo": "https://telegra.ph/file/73cbefa8401982900fe81.jpg",
-    "description": "KennedyX Music allow you to stream music trought the telegram voice chat feature.",
+    "name": "ZyroXMusic",
+    "logo": "https://telegra.ph/file/ffeb48ba50f4290da9408.jpg",
+    "description": "Zyro Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/KennedyProject/KennedyXMusic",
+    "repository": "https://github.com/synpl/ZyroXMusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -26,7 +26,7 @@
         "BOT_USERNAME": {
             "description": "Fill woth your blt username without @",
             "required": true,
-            "value": "KenzxMusicBot"
+            "value": "zyroscopebot"
         },
         "U_BRANCH": {
             "description": "This branch the repo DON'T CHANGE!",
@@ -46,7 +46,7 @@
         "UPSTREAM_REPO": {
             "description": "If you forking, put your link on this value. if you not forking LEAVE THIS ONE!",
             "required": true,
-            "value": "https://github.com/KennedyProject/KennedyXMusic"
+            "value": "https://github.com/synpl/ZyroXMusic"
         },
         "BOT_IMG": {
             "description": "For alive pic.",
@@ -56,7 +56,7 @@
         "ASSISTANT_NAME": {
             "description": "Fill with your assistant username without @",
             "required": true,
-            "value": "kennedyassistant"
+            "value": "zyroscope"
         },
         "BG_IMAGE": {
             "description": "For background image if you playing",
@@ -66,12 +66,12 @@
         "ALIVE_EMOJI": {
             "description": "for emoji in /alive command",
             "required": true,
-            "value": "🌻"
+            "value": "🔥"
         },
         "OWNER_NAME": {
             "description": "Fill with your username account without @",
             "required": false,
-            "value": "xgothboi"
+            "value": "akbarnfal"
         },
         "API_ID": {
             "description": "APP ID from my.telegram.org",
@@ -103,7 +103,7 @@
         "GROUP_SUPPORT": {
             "description": "Fill with your group username without @, if your haven't one you can leave it default",
             "required": false,
-            "value": "kenbotsupport"
+            "value": "joinsinidongg"
         }
     },
     "buildpacks": [
