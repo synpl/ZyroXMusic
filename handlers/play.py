@@ -235,7 +235,7 @@ async def hfmm(_, message):
             return
         DISABLED_GROUPS.append(message.chat.id)
         await lel.edit(
-            f"💡 **Music bot di nonaktifkan untuk GC ini**\n\n`{message.chat.id}`"
+            f"**Music bot di nonaktifkan untuk GC ini**\n\n`{message.chat.id}`"
         )
     else:
         await message.reply_text(
@@ -580,7 +580,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("ɴᴏɴɢᴋɪ", url=f"https://t.me/joinsinidongg"),
                     InlineKeyboardButton("ᴊᴀᴊᴀɴ", url=f"saweria.co/nopalle"), 
                 ],
-                   [InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="cls)],
+                   [InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="cls")],
             ]
         )
         requested_by = message.from_user.first_name
