@@ -580,7 +580,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("ɴᴏɴɢᴋɪ", url=f"https://t.me/joinsinidongg"),
                     InlineKeyboardButton("ᴊᴀᴊᴀɴ", url=f"saweria.co/nopalle"), 
                 ],
-                   [InlineKeyboardButton("text="ᴄʟᴏsᴇ", callback_data="cls)],
+                   [InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="cls)],
             ]
         )
         requested_by = message.from_user.first_name
