@@ -35,11 +35,11 @@ async def addchannel(client, message):
     try:
         await USER.join_chat(invitelink)
         await USER.send_message(
-            message.chat.id, "🤖: i'm joined here for playing music on voice chat"
+            message.chat.id, "ya halo"
         )
     except UserAlreadyParticipant:
         await message.reply_text(
-            f"<b>✅ userbot already joined chat</b>",
+            f"<b>✅ babu sudah join</b>",
         )
     except Exception as e:
         print(e)
@@ -49,7 +49,7 @@ async def addchannel(client, message):
         )
         return
     await message.reply_text(
-        f"<b>✅ userbot successfully joined chat</b>",
+        f"<b>✅ babu berhasil join gc</b>",
     )
 
 
@@ -61,7 +61,7 @@ async def addchannel(client, message):
 @authorized_users_only
 async def rem(client, message):
     try:
-        await USER.send_message(message.chat.id, "✅ userbot successfully left group")
+        await USER.send_message(message.chat.id, "✅ babu berhasil keluar gc")
         await USER.leave_chat(message.chat.id)
     except:
         await message.reply_text(
