@@ -896,7 +896,7 @@ async def ytplay(_, message: Message):
             [
                 [
                     InlineKeyboardButton("ɴᴏɴɢᴋɪ", url=f"https://t.me/joinsinidongg"),
-                    InlineKeyboardButton("ᴊᴀᴊᴀɴ", "url=f"saweria.co/nopalle"), 
+                    InlineKeyboardButton("ᴊᴀᴊᴀɴ", url=f"saweria.co/nopalle"), 
                 ],
                    [InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="cls")], 
             ]
