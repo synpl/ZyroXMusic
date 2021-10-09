@@ -13,7 +13,7 @@ async def asupan(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`404 asupan videos not found:v`")
+        await message.reply_text("`coli dulu bntr`")
 
 
 @Client.on_message(command(["wibu", f"wibu@{BOT_USERNAME}"]))
@@ -23,7 +23,7 @@ async def wibu(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`404 wibu not found:v`")
+        await message.reply_text("`404 wibu not found`")
 
 
 @Client.on_message(command(["truth", f"truth@{BOT_USERNAME}"]))
@@ -33,7 +33,7 @@ async def truth(client, message):
         results = f"{resp['message']}"
         return await message.reply_text(results)
     except Exception:
-        await message.reply_text("something went wrong...")
+        await message.reply_text("...")
 
 
 @Client.on_message(command(["dare", f"dare@{BOT_USERNAME}"]))
@@ -43,7 +43,7 @@ async def dare(client, message):
         results = f"{resp['message']}"
         return await message.reply_text(results)
     except Exception:
-        await message.reply_text("something went wrong...")
+        await message.reply_text("...")
 
 
 @Client.on_message(command(["chika", f"chika@{BOT_USERNAME}"]))
@@ -53,4 +53,4 @@ async def chika(client, message):
         results = f"{resp['url']}"
         return await client.send_video(message.chat.id, video=results)
     except Exception:
-        await message.reply_text("`404 chika videos not found`")
+        await message.reply_text("`coli dulu bntr`")
