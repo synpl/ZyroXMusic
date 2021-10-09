@@ -39,7 +39,7 @@ async def addchannel(client, message):
         )
     except UserAlreadyParticipant:
         await message.reply_text(
-            f"<b>✅ babu sudah join</b>",
+            f"<b>✅ babu berhasil join</b>",
         )
     except Exception as e:
         print(e)
